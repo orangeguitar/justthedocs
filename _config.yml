@@ -6,3 +6,11 @@ url: https://orangeguitar.github.io/justthedocs
 
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/orangeguitar/justthedocs
+
+# Set the root directory for your content
+root: "/docs"
+
+# Enable the navigation for files in the docs folder
+include:
+  - "_pages"
+  - "docs"
